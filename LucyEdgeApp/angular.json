@@ -24,14 +24,19 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
+              "src/browserconfig.xml",
               "src/assets/images",
+              "src/assets/favicons",
               "src/web.config"
             ],
             "styles": [
               "src/assets/css/styles.scss"
             ],
             "scripts": [
-              "src/assets/js/main.js"
+              "src/assets/js/main.js",
+              "node_modules/jquery/dist/jquery.min.js",
+               "node_modules/bootstrap/dist/js/bootstrap.min.js"
+
             ]
           },
           "configurations": {
@@ -89,10 +94,14 @@
                 "src/assets/css/styles.scss"
             ],
             "scripts": [
-                "src/assets/js/main.js"
+                "src/assets/js/main.js",
+                "node_modules/jquery/dist/jquery.min.js",
+                "node_modules/bootstrap/dist/js/bootstrap.min.js"
+
             ],
             "assets": [
               "src/favicon.ico",
+              "src/browserconfig.xml",
               "src/assets",
               "/web.config"
             ]

@@ -1,18 +1,27 @@
 //Imports
 
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+@import '~bootstrap/scss/bootstrap-reboot';
+@import '~bootstrap/scss/bootstrap-grid';
+@import '~bootstrap/scss/_transitions';
+@import '~bootstrap/scss/_nav';
+@import '~bootstrap/scss/_navbar';
+@import '~bootstrap/scss/_utilities';
+
+
+
 
 //Sass Variables
 
 $primary: #D52653;
 $sidebar-base-width: 17rem;
 $white: #FFFFFF;
+$defaultFont: 'Raleway', sans-serif;
 
 // Custom Css
 
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: $defaultFont;
 	padding-top: 54px;
 	color: #868e96;
 }
@@ -55,7 +64,7 @@ p.lead {
 .subheading {
 	text-transform: uppercase;
 	font-weight: 500;
-	font-family: 'Raleway', sans-serif;
+	font-family: $defaultFont;
 	font-size: 1.5rem;
 }
 

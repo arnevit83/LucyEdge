@@ -5,4 +5,3 @@ import { Component } from '@angular/core';
   templateUrl: './Nav.html',
 })
 export class NavComponent {}
-
