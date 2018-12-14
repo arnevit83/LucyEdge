@@ -27,7 +27,9 @@
               "src/browserconfig.xml",
               "src/assets/images",
               "src/assets/favicons",
-              "src/web.config"
+              "src/web.config",
+              "src/robots.txt",
+              "src/sitemap.xml"
             ],
             "styles": [
               "src/assets/css/styles.scss"
@@ -103,7 +105,9 @@
               "src/favicon.ico",
               "src/browserconfig.xml",
               "src/assets",
-              "/web.config"
+              "/web.config",
+              "src/robots.txt",
+              "src/sitemap.xml"
             ]
           }
         },
