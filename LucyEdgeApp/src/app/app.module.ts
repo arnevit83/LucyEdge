@@ -8,6 +8,8 @@ import { FooterComponent } from './Footer/app.Footer';
 import { NavComponent } from './Nav/app.Nav';
 
 import { HomeComponent } from './ContentArea/app.Home';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 @NgModule({
@@ -20,7 +22,8 @@ import { HomeComponent } from './ContentArea/app.Home';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
