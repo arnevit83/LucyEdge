@@ -94,7 +94,9 @@ p.lead {
 		-ms-flex-direction: column;
 		flex-direction: column;
 		width: 17rem;
-		height: 100vh;
+		height: 100vh;-webkit-box-shadow:3px 0 6px 0px #464c5247;
+-moz-box-shadow:3px 0 6px 0px #464c5247;
+box-shadow: 2px 0px 5px 0px rgba(102,102,102,0.2);
 	}
 	#sideNav .navbar-brand {
 		display: -webkit-box;
@@ -247,4 +249,18 @@ section.default {
 		padding-top: 3rem !important;
 		padding-bottom: 3rem !important;
 	}
+}
+
+footer{
+	background-color: #343a40;
+	color: #ffffff77;
+	padding: 1px 0px 5px;
+	text-shadow:1px 1px #21272d77;
+}
+footer a {
+		color: #ffffff77;
+}
+footer a:hover,a:active,a:focus {
+		color: #ffffff99;
+		text-decoration: none;
 }
