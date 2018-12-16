@@ -23,7 +23,7 @@ const routes: Routes = [{ path: '', component:  HomeComponent },
                         {path: '**', redirectTo: 'not-found'}];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
