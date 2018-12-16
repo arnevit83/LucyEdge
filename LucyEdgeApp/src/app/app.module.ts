@@ -6,10 +6,13 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './Header/app.Header';
 import { FooterComponent } from './Footer/app.Footer';
 import { NavComponent } from './Nav/app.Nav';
+import { PageNotFoundComponent } from './PageNotFound/app.PageNotFound';
 
 import { HomeComponent } from './ContentArea/app.Home';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+
+
 
 
 @NgModule({
@@ -17,8 +20,9 @@ import { environment } from '../environments/environment';
     AppComponent,
     HeaderComponent,
     FooterComponent,
+    HomeComponent,
     NavComponent,
-    HomeComponent
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

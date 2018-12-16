@@ -1,7 +1,5 @@
 //Imports
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 @import '~bootstrap/scss/bootstrap-reboot';
 @import '~bootstrap/scss/bootstrap-grid';
 @import '~bootstrap/scss/_transitions';
@@ -20,11 +18,10 @@ $white: #FFFFFF;
 $defaultFont: 'Open Sans', sans-serif;
 
 // Custom Css
-
 body {
 	font-family: $defaultFont;
 	padding-top: 54px;
-	color: #868e96;
+	color: #444a50fc;
 }
 
 @media (min-width: 992px) {
@@ -69,34 +66,6 @@ p.lead {
 	font-size: 1.5rem;
 }
 
-.social-icons a {
-	display: inline-block;
-	height: 3.5rem;
-	width: 3.5rem;
-	//   background-color: #495057;
-	color: #fff !important;
-	border-radius: 100%;
-	text-align: center;
-	font-size: 1.5rem;
-	line-height: 3.5rem;
-	margin-right: 1rem;
-}
-
-.social-icons a:last-child {
-	margin-right: 0;
-}
-
-.social-icons a:hover {
-	// background-color: #BD5D38;
-}
-
-.dev-icons {
-	font-size: 3rem;
-}
-
-.dev-icons .list-inline-item i:hover {
-	color: #BD5D38;
-}
 
 #sideNav .navbar-nav .nav-item .nav-link {
 	font-weight: 800;
@@ -258,5 +227,28 @@ a:active {
 				}
 			}
 		}
+	}
+}
+
+
+section.default {
+	padding-top: 5rem !important;
+	padding-bottom: 5rem !important;
+	max-width: 75rem;
+}
+
+
+
+@media (min-width: 768px) {
+	section.default {
+		min-height: 100vh;
+	}
+
+}
+
+@media (min-width: 992px) {
+	section.default {
+		padding-top: 3rem !important;
+		padding-bottom: 3rem !important;
 	}
 }
