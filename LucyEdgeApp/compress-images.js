@@ -5,7 +5,7 @@ const imageminJpegtran = require('imagemin-jpegtran');
 
 const outputFolder = "./src/assets/images/";
 
-imagemin(['./src/assets/uncompressed images/*.{jpg,png}'], outputFolder, {
+imagemin(['./src/assets/images uncompressed/*.{jpg,png}'], outputFolder, {
     use: [
         imageminWebp({quality: 50})
     ]
@@ -15,7 +15,7 @@ imagemin(['./src/assets/uncompressed images/*.{jpg,png}'], outputFolder, {
 
 
 
-imagemin(['./src/assets/uncompressed images/*.png'], outputFolder, {
+imagemin(['./src/assets/images uncompressed/*.png'], outputFolder, {
   use: [
     imageminPngquant({quality: 1,speed: 1,strip: true})
   ]
@@ -25,7 +25,7 @@ imagemin(['./src/assets/uncompressed images/*.png'], outputFolder, {
 
 
 
-imagemin(['./src/assets/uncompressed images/*.jpg'], outputFolder, {
+imagemin(['./src/assets/images uncompressed/*.jpg'], outputFolder, {
   use: [
     imageminJpegtran({progressive: true})
   ]
