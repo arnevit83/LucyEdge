@@ -6,7 +6,7 @@
 @import '~bootstrap/scss/_nav';
 @import '~bootstrap/scss/_navbar';
 @import '~bootstrap/scss/_utilities';
-
+@import '~bootstrap/scss/_images';
 
 
 
@@ -42,7 +42,7 @@ h6 {
 }
 
 h1 {
-	font-size: 6rem;
+	font-size: 5rem;
 	line-height: 5.5rem;
 }
 
@@ -64,10 +64,6 @@ p.lead {
 	font-weight: 500;
 	font-family: $defaultFont;
 	font-size: 1.5rem;
-}
-.img-responsive{
-
-	width:100%;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -138,11 +134,33 @@ box-shadow: 2px 0px 5px 0px rgba(102,102,102,0.2);
 	}
 }
 
+.img-thumbnail{
+border-color:#e2688763!important;
+
+}
+
 section.resume-section {
 	padding-top: 5rem !important;
 	padding-bottom: 5rem !important;
-	max-width: 75rem;
+	color:#FFFFFF;
+	text-shadow:1px 1px #21272d24;
 }
+
+.no-webp .resume-section {
+ background-image: url("~/assets/images/HomePic.jpg") no-repeat center -100px fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.webp .resume-section {
+ background: url("~/assets/images/HomePic.webp") no-repeat center -100px fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 @media (min-width: 768px) {
 	section.resume-section {
@@ -263,4 +281,31 @@ footer a {
 footer a:hover,a:active,a:focus {
 		color: #ffffff99;
 		text-decoration: none;
+}
+.DisableLinks :hover,:active,:focus{
+	color: #343a40;
+
+}
+.DisableLinks{
+	color: #343a40;
+  text-decoration: none!important;
+
+}
+.tabMore{
+	background-color: #FFFFFF;
+	    position: relative;
+	    top: -20px;
+	    -webkit-border-top-right-radius: 50px;
+	    -webkit-border-bottom-right-radius: 50px;
+	    -moz-border-radius-topright: 50px;
+	    -moz-border-radius-bottomright: 50px;
+	    border-top-right-radius: 50px;
+	    border-bottom-right-radius: 50px;
+	    margin: 0 auto;
+	    height: 37px;
+	    width: 0px;
+	    text-align: center;
+	    -webkit-transform: rotate(-90deg);
+	    transform: rotate(-90deg);
+	    padding: 5px 15px;
 }
