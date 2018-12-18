@@ -67,7 +67,7 @@ p.lead {
 	text-transform: uppercase;
 	font-weight: 500;
 	font-family: $defaultFont;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -138,10 +138,7 @@ box-shadow: 2px 0px 5px 0px rgba(102,102,102,0.2);
 	}
 }
 
-.img-thumbnail{
-border-color:#e2688763!important;
 
-}
 
 section.resume-section {
 	padding-top: 5rem !important;
@@ -257,7 +254,9 @@ section.default {
 	max-width: 75rem;
 }
 
-
+hr{
+border-color:#a3a3a31c;
+}
 
 @media (min-width: 768px) {
 	section.default {
@@ -265,7 +264,17 @@ section.default {
 	}
 
 }
+.icon fa-icon{
+    margin: 10px;
+	color: $primary;
+}
+.icon a{
 
+	color: #333;
+}
+.iconspink{
+		color: $primary;
+}
 @media (min-width: 992px) {
 	section.default {
 		padding-top: 3rem !important;
@@ -276,8 +285,9 @@ section.default {
 footer{
 	background-color: #343a40;
 	color: #ffffff77;
-	padding: 1px 0px 5px;
-	text-shadow:1px 1px #21272d77;
+	padding: 8px 0px 8px;
+	text-shadow: 1px 1px #21272d77;
+	font-size: 11px;
 }
 footer a {
 		color: #ffffff77;
@@ -302,4 +312,5 @@ footer a:hover,a:active,a:focus {
 	    text-align: center;
 	    padding: 4px;
 			font-size: 11px;
+			margin-bottom: -20px!important;
 }
