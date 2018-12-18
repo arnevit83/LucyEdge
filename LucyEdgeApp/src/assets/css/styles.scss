@@ -23,6 +23,7 @@ body {
 	font-family: $defaultFont;
 	padding-top: 54px;
 	color: #444a50fc;
+
 }
 
 @media (min-width: 992px) {
@@ -58,8 +59,8 @@ h3 {
 }
 
 p.lead {
-	font-size: 1.15rem;
-	font-weight: 400;
+    font-size: 1.5rem;
+	font-weight: 400;text-transform: uppercase;
 }
 
 .subheading {
