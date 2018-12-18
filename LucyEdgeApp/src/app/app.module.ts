@@ -18,7 +18,7 @@ import { SkillsComponent } from './ContentArea/app.Skills';
 
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 
@@ -39,6 +39,7 @@ import { environment } from '../environments/environment';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FontAwesomeModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [Title],
