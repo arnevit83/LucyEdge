@@ -10,11 +10,14 @@ import { NavComponent } from './Nav/app.Nav';
 import { PageNotFoundComponent } from './PageNotFound/app.PageNotFound';
 
 import { HomeComponent } from './ContentArea/app.Home';
-import { AboutComponent } from './ContentArea/app.About';
+import { ReferencesComponent } from './ContentArea/app.References';
 import { ClientsComponent } from './ContentArea/app.Clients';
 import { ExperienceComponent } from './ContentArea/app.Experience';
 import { InterestsComponent } from './ContentArea/app.Interests';
-import { SkillsComponent } from './ContentArea/app.Skills';
+import { ContactComponent } from './ContentArea/app.Contact';
+import { AboutComponent } from './ContentArea/app.About';
+
+
 
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
@@ -29,10 +32,11 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     FooterComponent,
     HomeComponent,
     ClientsComponent,
-    AboutComponent,
+    ReferencesComponent,
     ExperienceComponent,
     InterestsComponent,
-    SkillsComponent,
+    AboutComponent,
+    ContactComponent,
     NavComponent,
     PageNotFoundComponent
   ],
