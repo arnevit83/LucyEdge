@@ -252,7 +252,7 @@ a:active {
 section.default {
 	padding-top: 5rem !important;
 	padding-bottom: 5rem !important;
-	max-width: 75rem;
+
 }
 
 hr{
@@ -314,4 +314,10 @@ footer a:hover,a:active,a:focus {
 	    padding: 4px;
 			font-size: 11px;
 			margin-bottom: -20px!important;
+}
+.resume-section-default{
+min-height: auto!important;
+background-color: #fa944c!important;
+//e26687
+background-image: none!important;
 }

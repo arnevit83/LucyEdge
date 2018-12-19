@@ -15,7 +15,7 @@ import { ClientsComponent } from './ContentArea/app.Clients';
 import { ExperienceComponent } from './ContentArea/app.Experience';
 import { InterestsComponent } from './ContentArea/app.Interests';
 import { ContactComponent } from './ContentArea/app.Contact';
-import { AboutComponent } from './ContentArea/app.About';
+import { LovesComponent } from './ContentArea/app.Loves';
 
 
 
@@ -35,7 +35,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ReferencesComponent,
     ExperienceComponent,
     InterestsComponent,
-    AboutComponent,
+    LovesComponent,
     ContactComponent,
     NavComponent,
     PageNotFoundComponent

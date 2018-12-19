@@ -6,7 +6,7 @@ import { ReferencesComponent } from './ContentArea/app.References';
 import { ClientsComponent } from './ContentArea/app.Clients';
 import { ExperienceComponent } from './ContentArea/app.Experience';
 import { InterestsComponent } from './ContentArea/app.Interests';
-import { AboutComponent } from './ContentArea/app.About';
+import { LovesComponent } from './ContentArea/app.Loves';
 
 
 import { ContactComponent } from './ContentArea/app.Contact';
@@ -22,7 +22,7 @@ const routes: Routes = [{ path: '', component:  HomeComponent },
                         { path: 'Experience', component:  ExperienceComponent },
                         { path: 'Interests', component:  InterestsComponent },
                         { path: 'Contact', component:  ContactComponent },
-                        { path: 'About', component:  AboutComponent },
+                        { path: 'Loves', component:  LovesComponent },
                         {path: 'not-found',  component: PageNotFoundComponent},
                         {path: '**', redirectTo: 'not-found'}];
 

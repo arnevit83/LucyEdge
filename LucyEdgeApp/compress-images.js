@@ -2,6 +2,7 @@ const imagemin = require('imagemin');
 const imageminWebp = require('imagemin-webp');
 const imageminPngquant = require('imagemin-pngquant');
 const imageminJpegtran = require('imagemin-jpegtran');
+const imageminSvgo = require('imagemin-svgo');
 
 const outputFolder = "./src/assets/images/";
 
@@ -31,4 +32,13 @@ imagemin(['./src/assets/images uncompressed/*.jpg'], outputFolder, {
   ]
 }).then(() => {
     console.log('JPG Images optimized');
+});
+
+
+imagemin(['./src/assets/images uncompressed/*.svg'], outputFolder, {
+  use: [
+    imageminSvgo({plugins: [{removeViewBox: false}]})
+  ]
+}).then(() => {
+    console.log('SVG Images optimized');
 });
