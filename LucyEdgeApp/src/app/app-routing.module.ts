@@ -7,27 +7,23 @@ import { ClientsComponent } from './ContentArea/app.Clients';
 import { ExperienceComponent } from './ContentArea/app.Experience';
 import { InterestsComponent } from './ContentArea/app.Interests';
 import { LovesComponent } from './ContentArea/app.Loves';
-
-
 import { ContactComponent } from './ContentArea/app.Contact';
-
-
 import { PageNotFoundComponent } from './PageNotFound/app.PageNotFound';
 
 
 
-const routes: Routes = [{ path: '', component:  HomeComponent },
-                        { path: 'References', component:  ReferencesComponent },
-                        { path: 'Clients', component:  ClientsComponent },
-                        { path: 'Experience', component:  ExperienceComponent },
-                        { path: 'Interests', component:  InterestsComponent },
-                        { path: 'Contact', component:  ContactComponent },
-                        { path: 'Loves', component:  LovesComponent },
+const routes: Routes = [{path: '', component:  HomeComponent },
+                        {path: 'References', component:  ReferencesComponent },
+                        {path: 'Clients', component:  ClientsComponent },
+                        {path: 'Experience', component:  ExperienceComponent },
+                        {path: 'Interests', component:  InterestsComponent },
+                        {path: 'Contact', component:  ContactComponent },
+                        {path: 'Loves', component:  LovesComponent },
                         {path: 'not-found',  component: PageNotFoundComponent},
                         {path: '**', redirectTo: 'not-found'}];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { useHash: true })],
+  imports: [RouterModule.forRoot(routes, { useHash: true, scrollPositionRestoration: 'enabled' })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

@@ -317,7 +317,40 @@ footer a:hover,a:active,a:focus {
 }
 .resume-section-default{
 min-height: auto!important;
-background-color: #fa944c!important;
-//e26687
-background-image: none!important;
+//background-color: #fa944c!important;
+//background-image: none!important;
+}
+
+//Loves
+
+.ColourGrid{
+	height: 250px;
+	color:#FFFFFF;
+font-size:1.5vw;
+
+	text-shadow: 1px 1px #21272d77;
+}
+.ColourGrid:nth-of-type(odd) {
+background-color:#D52653;
+}
+.ColourGrid:nth-of-type(even) {
+	background-color: #FA944C;
+}
+
+@include media-breakpoint-down(xs) {
+	.ColourGrid{
+	 font-size:15px!important;
+  }}
+@include media-breakpoint-down(md) {
+.sub-header {
+
+	display: none;
+}}
+@include media-breakpoint-up(xl) {
+	.ColourGrid{
+	 font-size:30px!important;
+ }}
+
+.sub-header{
+  font-size:18px!important;
 }
