@@ -8,7 +8,7 @@ const outputFolder = "./src/assets/images/";
 
 imagemin(['./src/assets/images uncompressed/*.{jpg,png}'], outputFolder, {
     use: [
-        imageminWebp({quality: 50})
+        imageminWebp({quality: 75})
     ]
 }).then(() => {
     console.log('WEBP Images created');
