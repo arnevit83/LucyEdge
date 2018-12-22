@@ -9,6 +9,9 @@ import { ClientsComponent } from './ContentArea/app.Clients';
 import { TestimonialsComponent } from './ContentArea/app.Testimonials';
 import { LovesComponent } from './ContentArea/app.Loves';
 import { ContactComponent } from './ContentArea/app.Contact';
+import { BrandStrategyComponent } from './ContentArea/app.BrandStrategy';
+import { CopywriteringComponent } from './ContentArea/app.Copywritering';
+
 
 import { PageNotFoundComponent } from './PageNotFound/app.PageNotFound';
 
@@ -22,6 +25,11 @@ const routes: Routes = [{path: '', component:  HomeComponent },
                         {path: 'Loves', component:  LovesComponent },
                         {path: 'Contact', component:  ContactComponent },
                         {path: 'not-found',  component: PageNotFoundComponent},
+                        {path: 'BrandStrategy',  component: BrandStrategyComponent},
+                        {path: 'CopyWriting',  component: CopywriteringComponent},
+
+
+
                         {path: '**', redirectTo: 'not-found'}];
 
 @NgModule({

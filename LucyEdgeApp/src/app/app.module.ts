@@ -16,6 +16,9 @@ import { ClientsComponent } from './ContentArea/app.Clients';
 import { TestimonialsComponent } from './ContentArea/app.Testimonials';
 import { LovesComponent } from './ContentArea/app.Loves';
 import { ContactComponent } from './ContentArea/app.Contact';
+import { BrandStrategyComponent } from './ContentArea/app.BrandStrategy';
+import { CopywriteringComponent } from './ContentArea/app.Copywritering';
+
 
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
@@ -36,6 +39,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     LovesComponent,
     ContactComponent,
     NavComponent,
+    BrandStrategyComponent,
+    CopywriteringComponent,
     PageNotFoundComponent
   ],
   imports: [

@@ -7,6 +7,7 @@
 @import '~bootstrap/scss/_navbar';
 @import '~bootstrap/scss/_utilities';
 @import '~bootstrap/scss/_images';
+@import '~bootstrap/scss/_list-group';
 
 
 
@@ -322,10 +323,51 @@ footer a:hover,a:active,a:focus {
 
  .resume-section-default{
 min-height: auto!important;
-background-color: #fa944c!important;
+
 background-image: none!important;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa84c+0,ff7b0d+100;Orange+3D */
+background-color: rgb(255,168,76)!important;; /* Old browsers */
+background-color: -moz-linear-gradient(top, rgba(255,168,76,1) 0%, rgba(255,123,13,1) 100%)!important;; /* FF3.6-15 */
+background-color: -webkit-linear-gradient(top, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%)!important;; /* Chrome10-25,Safari5.1-6 */
+background-color: linear-gradient(to bottom, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%)!important;; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 )!important;; /* IE6-9 */
+}
+//SKILLS
+
+.circle-icon {
+    background: #ffc0c0;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    padding: 45px;
+		display: block;
+		color: $white;
+		background: rgb(226,104,135); /* Old browsers */
+		background: -moz-linear-gradient(top, rgba(226,104,135,1) 1%, rgba(213,38,83,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(226,104,135,1) 1%,rgba(213,38,83,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(226,104,135,1) 1%,rgba(213,38,83,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e26887', endColorstr='#d52653',GradientType=0 ); /* IE6-9 */
+		margin-bottom: 20px;
+	}
+	.circle-icon svg{
+	font-size: 50px;
+	}
+.dot{
+font-size:6px;
+vertical-align: middle;;
+}
+.list-group-item:nth-of-type(even){
+background-color:#f8f9fa!important;
 
 }
+#Skills a{
+	color:#444a50fc;
+}
+
+
 //Loves
 
 .ColourGrid{
