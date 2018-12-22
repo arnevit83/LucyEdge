@@ -26,6 +26,10 @@ body {
 
 }
 
+.homepage-text ul li{
+margin: 20px;
+}
+
 @media (min-width: 992px) {
 	body {
 		padding-top: 0;
@@ -315,18 +319,11 @@ footer a:hover,a:active,a:focus {
 			font-size: 11px;
 			margin-bottom: -20px!important;
 }
-.no-webp .resume-section-default{
-min-height: auto!important;
-//background-color: #fa944c!important;
-//background-image: none!important;
-background: url(/assets/images/HomePic.jpg) no-repeat right bottom!important;
 
-}
-.webp .resume-section-default{
+ .resume-section-default{
 min-height: auto!important;
-//background-color: #fa944c!important;
-//background-image: none!important;
-background: url(/assets/images/HomePic.webp) no-repeat right bottom!important;
+background-color: #fa944c!important;
+background-image: none!important;
 
 }
 //Loves
