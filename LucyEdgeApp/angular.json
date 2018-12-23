@@ -39,6 +39,7 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "src/assets/js/main.js",
+              "src/assets/js/onload.js",
             ]
           },
           "configurations": {
@@ -100,6 +101,7 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
               "src/assets/js/main.js",
+              "src/assets/js/onload.js",
             ],
             "assets": [
               "src/favicon.ico",

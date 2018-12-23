@@ -9,6 +9,22 @@ $('#tabMore').click(function() {
   $('html, body').animate({scrollTop:$(document).height()}, 'slow');
          return false;
 });
+$('.ScrollUp').click(function() {
+  $('html, body').animate({scrollTop:0}, 'slow');
+         return false;
+});
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 800) {
+    $('.ScrollUp').fadeIn();
+  } else {
+    $('.ScrollUp').fadeOut();
+  }
+});
+$('.ScrollUp').hover(
+       function(){ $(this).addClass('shadow') },
+       function(){ $(this).removeClass('shadow') }
+)
  })
  $(document).ready(function () {
    $(".navbar-nav li a").click(function(event) {
