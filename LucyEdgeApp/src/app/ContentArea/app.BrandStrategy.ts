@@ -16,11 +16,13 @@ export class BrandStrategyComponent {
    }
    ngOnInit() {
      $(function(){
-       var urlHash = window.location.href.split("#")[2];
-       if (urlHash &&  $('#' + urlHash).length )
-             $('html,body').animate({
-                 scrollTop: $('#' + urlHash).offset().top - 20
-             }, 1000);
-      });
+       setTimeout(function() {
+         var urlHash = window.location.href.split("#")[2];
+         if (urlHash &&  $('#' + urlHash).length )
+               $('html,body').animate({
+                   scrollTop: $('#' + urlHash).offset().top - 20
+               }, 1000);
+        });
+       }, 500);
 }
 }

@@ -26,6 +26,11 @@ body {
 	color: #444a50fc;
 
 }
+Contact{
+	min-height: 1000px;
+	display: block;
+
+}
 
 .homepage-text ul li{
 margin: 20px;
@@ -313,7 +318,7 @@ footer{
 footer a {
 		color: #ffffff77;
 }
-footer a:hover,a:active,a:focus {
+footer a:hover,footer a:active,footer a:focus {
 		color: #ffffff99;
 		text-decoration: none;
 }
@@ -453,6 +458,41 @@ background-color:#D52653;
   font-size:18px!important;
 }
 .my-auto{
-
 	width: 100%;
+}
+
+//Contact us
+.contactusIcon{
+	font-size: 2.5vw;
+
+min-width: 200px;
+}
+.contactusIcon a{
+margin-top: 15px;
+display: inline-block;
+}
+
+
+@include media-breakpoint-down(xs) {
+	.contactusIcon{
+	 font-size:25px!important;
+  }
+	.centers{
+
+		position: relative!important;
+		top:auto!important;
+		transform:none!important;
+	}
+}
+
+@include media-breakpoint-up(xl) {
+	.contactusIcon{
+	 font-size:30px!important;
+ }
+}
+.centers{
+
+	position: absolute;
+top: 50%;
+transform: perspective(1px) translateY(-50%);
 }
