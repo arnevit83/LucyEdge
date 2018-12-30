@@ -12,7 +12,6 @@
 
 
 
-
 //Sass Variables
 
 $primary: #D52653;
@@ -44,6 +43,9 @@ margin: 20px;
 		padding-left: 17rem;
 	}
 }
+
+
+
 a:hover,a:active, a:focus{
 color:$secondary;
 }
@@ -343,6 +345,13 @@ footer a:hover,footer a:active,footer a:focus {
 			margin-bottom: -20px!important;
 }
 
+@include media-breakpoint-down(xs) {
+.tabMore{
+	display: none;
+}}
+
+
+
  .resume-section-default{
 min-height: auto!important;
 
@@ -377,16 +386,42 @@ border-radius: 3px; /* future proofing */
 -khtml-border-radius: 3px; /* for old Konqueror browsers */
 
 }
+//homepage
 
+.homepageUL{
+	padding-top: 10px;
+	font-weight: 600;
+	padding-bottom: 5px;
+}
+.homepageUL li p{
+	font-weight: 400!important;
+	padding-top: 6px;
+	padding-left: 20px;
+}
+.homepage-text p{
+	line-height: 1.6;
+}
 
+@include media-breakpoint-down(xs) {
+	Home{
+		text-align: center;
+	}
+	home h1{
+		font-size: 3em!important;
+	}
+	p.lead {
+    font-size: 1.2rem;
 
-
-
+}
+}
 //Copywriting
 
 .smallerli li{
 	margin: 2px!important;
 }
+
+
+
 
 
 //SKILLS
