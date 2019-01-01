@@ -462,12 +462,23 @@ cursor: pointer;
 //Loves
 
 .ColourGrid{
-	height: 250px;
-	color:#FFFFFF;
-font-size:1.5vw;
 
+	color:#FFFFFF;
 	text-shadow: 1px 1px #21272d77;
 }
+
+
+#References .ColourGrid{
+	font-size:1.5vw;	height: 250px;
+}
+#Clients .ColourGrid{
+	font-size:1.3vw;
+}
+#Clients .col-sm-4{
+	padding: 0px;
+}
+
+
 .ColourGrid:nth-of-type(odd) {
 background-color:#D52653;
 }
@@ -478,16 +489,22 @@ background-color:#D52653;
 
 
 @include media-breakpoint-down(xs) {
-	.ColourGrid{
+#References .ColourGrid{
 	 font-size:15px!important;
-  }}
+  }
+	#Clients .ColourGrid{
+ font-size:15px!important;
+		min-height: 250px;
+	}
+
+}
 @include media-breakpoint-down(md) {
 .sub-header {
 
 	display: none;
 }}
 @include media-breakpoint-up(xl) {
-	.ColourGrid{
+#References .ColourGrid{
 	 font-size:30px!important;
  }}
 
