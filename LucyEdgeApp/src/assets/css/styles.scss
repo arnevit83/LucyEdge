@@ -164,7 +164,7 @@ box-shadow: 2px 0px 5px 0px rgba(102,102,102,0.2);
 	#sideNav .navbar-brand .img-profile {
 		max-width: 10rem;
 		max-height: 10rem;
-		border: 0.5rem solid rgba(255, 255, 255, 0.2);
+		border: 0.5rem solid #d5265342;width: 500px;background-color: white;
 	}
 	#sideNav .navbar-collapse {
 		display: -webkit-box;
@@ -281,7 +281,7 @@ a:active {
 			.img-profile {
 				max-width: 10rem;
 				max-height: 10rem;
-				border: 0.5rem solid fade-out($white, 0.7);
+				border: 0.5rem solid fade-out(#D52653 , 0.7);
 			}
 		}
 		.navbar-collapse {
@@ -572,6 +572,7 @@ display: inline-block;
 }
 .mobilelogo{
 	margin-right: 10px;
+	background-color: white;
 }
 
 @include media-breakpoint-down(xs) {
