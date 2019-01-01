@@ -10,7 +10,9 @@
 @import '~bootstrap/scss/_list-group';
 @import '~bootstrap/scss/_carousel';
 @import '~bootstrap/scss/_spinners';
-
+@import '~bootstrap/scss/_jumbotron';
+@import '~bootstrap/scss/_tooltip';
+@import '~bootstrap/scss/_card';
 
 //Sass Variables
 
@@ -28,7 +30,7 @@ body {
 
 }
 Contact{
-	min-height: 1000px;
+	min-height: 1035px;
 	display: block;
 
 }
@@ -59,13 +61,36 @@ h6 {
 	text-transform: uppercase;
 }
 h1 {
-	font-size:5.5vw;
+font-size:3.5vw;
+}
+#Home h1{
+		font-size:3.5vw;
+		line-height: 1;
+}
+.nav-bar{
+	height: 2px;
+ color: #e2688754;
+ background-color: #e2688754;
+ width:80%;    margin-bottom: 15px;
+border:none;
+}
+
+.iconadjust{
+	position: absolute;
+	bottom: 15px;
+	left: 50px;
+	margin: 0 auto;
+	width: 180px;
+	font-size: 14px;
 }
 
 @include media-breakpoint-down(xs) {
 	h1{
 	 font-size:20px!important;
   }
+	#Home h1{
+	font-size:20px!important;
+	}
 	section.resume-section{
 	padding-top: 2rem !important;
 	padding-bottom: 2rem !important;
@@ -74,10 +99,12 @@ h1 {
 
 @include media-breakpoint-up(xl) {
 	h1{
-	 font-size:5.5rem!important;
+	 font-size:2.5rem!important;
   }}
 
-
+	#Home h1{
+font-size:5.5rem!important;
+	}
 
 h2 {
 	font-size: 3.5rem;
@@ -294,9 +321,26 @@ border-color:#a3a3a31c;
 	}
 
 }
+.nav-link-icon{
+	padding: 5px;
+	    margin: 5px;
+background-color: white;
+}
+.nav-link-icon a{
+
+	color: rgba(255, 255, 255, 0.5);
+}
+.nav-link-icon a:hover{
+
+	color: rgba(255, 255, 255, 0.75);
+}
+
+
 .icon fa-icon{
     margin: 10px;
-	color: $primary;
+		padding:10px;
+	color: #fa944b;
+	display: inline-flex;
 }
 .icon a{
 
@@ -399,7 +443,7 @@ border-radius: 3px; /* future proofing */
 	padding-left: 20px;
 }
 .homepage-text p{
-	line-height: 1.6;
+	line-height: 1.7;
 }
 
 @include media-breakpoint-down(xs) {
@@ -464,7 +508,7 @@ cursor: pointer;
 .ColourGrid{
 
 	color:#FFFFFF;
-	text-shadow: 1px 1px #21272d77;
+
 }
 
 
@@ -518,39 +562,59 @@ background-color:#D52653;
 
 //Contact us
 .contactusIcon{
-	font-size: 2.5vw;
+	font-size: 2vw;
 
 min-width: 200px;
 }
 .contactusIcon a{
-margin-top: 15px;
+margin-top: 10px;
 display: inline-block;
 }
-
+.mobilelogo{
+	margin-right: 10px;
+}
 
 @include media-breakpoint-down(xs) {
 	.contactusIcon{
-	 font-size:25px!important;
+	 font-size:20px!important;
   }
-	.centers{
-
+	.inner{
+padding: 20px 0px;
+	}
+	.outer{
 		position: relative!important;
-		top:auto!important;
-		transform:none!important;
 	}
 }
 
 @include media-breakpoint-up(xl) {
 	.contactusIcon{
-	 font-size:30px!important;
+	 font-size:25px!important;
  }
 }
-.centers{
 
-	position: absolute;
-top: 50%;
-transform: perspective(1px) translateY(-50%);
+
+.outer {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+
+}
+
+
 //Testimonials
 
 .col-center {
@@ -670,8 +734,8 @@ testimonials{
 
 
 .BrandStrategy hr{
-	height: 2px;
- color: #ffa84c63;
- background-color: #ffa84c63;
+	height: 1px;
+ color: #ffa84c75;
+ background-color: #ffa84c75;
  border: none;
 }
