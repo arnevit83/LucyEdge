@@ -9,7 +9,7 @@
 @import '~bootstrap/scss/_images';
 @import '~bootstrap/scss/_list-group';
 @import '~bootstrap/scss/_carousel';
-
+@import '~bootstrap/scss/_spinners';
 
 
 //Sass Variables
@@ -84,7 +84,7 @@ h2 {
 }
 
 h3 {
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 p.lead {
@@ -634,8 +634,8 @@ testimonials{
 		min-height:700px;
 }
 .carousel-indicators li, .carousel-indicators li.active {
-	width: 18px;
-    height: 18px;
+	width: 12px;
+    height: 12px;
 	border-radius: 50%;
 	margin: 1px 2px;
 }
@@ -664,4 +664,14 @@ testimonials{
 .carousel .overview {
 	 padding:0px!important;
 }
+}
+
+//BrandStrategy
+
+
+.BrandStrategy hr{
+	height: 2px;
+ color: #ffa84c63;
+ background-color: #ffa84c63;
+ border: none;
 }
