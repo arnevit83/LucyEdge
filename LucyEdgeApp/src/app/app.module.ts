@@ -18,6 +18,8 @@ import { LovesComponent } from './ContentArea/app.Loves';
 import { ContactComponent } from './ContentArea/app.Contact';
 import { BrandStrategyComponent } from './ContentArea/app.BrandStrategy';
 import { CopywriteringComponent } from './ContentArea/app.Copywritering';
+import { InspoComponent } from './ContentArea/app.Inspo';
+
 
 
 import { ServiceWorkerModule } from '@angular/service-worker';
@@ -41,6 +43,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     NavComponent,
     BrandStrategyComponent,
     CopywriteringComponent,
+    InspoComponent,
     PageNotFoundComponent
   ],
   imports: [

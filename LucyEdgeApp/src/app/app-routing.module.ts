@@ -11,6 +11,7 @@ import { LovesComponent } from './ContentArea/app.Loves';
 import { ContactComponent } from './ContentArea/app.Contact';
 import { BrandStrategyComponent } from './ContentArea/app.BrandStrategy';
 import { CopywriteringComponent } from './ContentArea/app.Copywritering';
+import { InspoComponent } from './ContentArea/app.Inspo';
 
 
 import { PageNotFoundComponent } from './PageNotFound/app.PageNotFound';
@@ -27,7 +28,7 @@ const routes: Routes = [{path: '', component:  HomeComponent },
                         {path: 'not-found',  component: PageNotFoundComponent},
                         {path: 'BrandStrategy',  component: BrandStrategyComponent},
                         {path: 'CopyWriting',  component: CopywriteringComponent},
-
+                        {path: 'Inspo',  component: InspoComponent},
 
 
                         {path: '**', redirectTo: 'not-found'}];

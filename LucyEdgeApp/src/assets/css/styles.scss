@@ -164,7 +164,7 @@ box-shadow: 2px 0px 5px 0px rgba(102,102,102,0.2);
 	#sideNav .navbar-brand .img-profile {
 		max-width: 10rem;
 		max-height: 10rem;
-		border: 0.5rem solid #d5265342;width: 500px;background-color: white;
+		border: 7px solid rgb(255, 198, 139);width: 500px;background-color: white;
 	}
 	#sideNav .navbar-collapse {
 		display: -webkit-box;
@@ -281,7 +281,8 @@ a:active {
 			.img-profile {
 				max-width: 10rem;
 				max-height: 10rem;
-				border: 0.5rem solid fade-out(#D52653 , 0.7);
+
+				border:7px solid rgb(255, 198, 139);
 			}
 		}
 		.navbar-collapse {
@@ -322,7 +323,7 @@ border-color:#a3a3a31c;
 
 }
 .nav-link-icon{
-	padding: 5px;
+	padding: 4px 7px;
 	    margin: 5px;
 background-color: white;
 }
@@ -442,9 +443,6 @@ border-radius: 3px; /* future proofing */
 	padding-top: 6px;
 	padding-left: 20px;
 }
-.homepage-text p{
-	line-height: 1.7;
-}
 
 @include media-breakpoint-down(xs) {
 	Home{
@@ -469,24 +467,26 @@ border-radius: 3px; /* future proofing */
 
 
 //SKILLS
+.list-group a:nth-of-type(2n) .list-group-item {
+background-color:#dee2e669;
+}
 
 .circle-icon {
-    background: #ffc0c0;
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 50px;
-    vertical-align: middle;
-    padding: 45px;
-		display: block;
-		color: $white;
-		background: rgb(226,104,135); /* Old browsers */
-		background: -moz-linear-gradient(top, rgba(226,104,135,1) 1%, rgba(213,38,83,1) 100%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(top, rgba(226,104,135,1) 1%,rgba(213,38,83,1) 100%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to bottom, rgba(226,104,135,1) 1%,rgba(213,38,83,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e26887', endColorstr='#d52653',GradientType=0 ); /* IE6-9 */
-		margin-bottom: 20px;
+	background: #e26887;
+	    width: 140px;
+	    height: 140px;
+	    border-radius: 50%;
+	    text-align: center;
+	    line-height: 50px;
+	    vertical-align: middle;
+	    padding: 39px;
+	    display: block;
+	    color: #d32455d9;
+	    background: #e26887;
+	    background: white;
+	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e26887', endColorstr='#d52653',GradientType=0 );
+	    margin-bottom: 20px;
+	    border: #ffa84ca6 solid 7px;
 	}
 	.circle-icon svg{
 	font-size: 50px;
@@ -617,7 +617,10 @@ padding: 20px 0px;
 
 
 //Testimonials
+#testimonial{
+min-height: 100vh;
 
+}
 .col-center {
 	margin: 0 auto;
 	float: none !important;
