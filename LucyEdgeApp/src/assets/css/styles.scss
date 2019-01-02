@@ -136,6 +136,9 @@ p.lead {
 	//   outline-color: #d48a6e;
 }
 
+
+
+
 @media (min-width: 992px) {
 	#sideNav {
 		text-align: center;
@@ -393,7 +396,16 @@ footer a:hover,footer a:active,footer a:focus {
 @include media-breakpoint-down(xs) {
 .tabMore{
 	display: none;
-}}
+}
+
+#Clients .col-sm-8{
+padding:20px;
+}
+#References .col-10 .col-sm-8{
+padding:20px;
+}
+
+}
 
 
 
