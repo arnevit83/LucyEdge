@@ -1,57 +1,100 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="477.000000pt" height="469.000000pt" viewBox="0 0 477.000000 469.000000"
- preserveAspectRatio="xMidYMid meet">
-<metadata>
-Created by potrace 1.15, written by Peter Selinger 2001-2017
-</metadata>
-<g transform="translate(0.000000,469.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M2180 4539 c-549 -49 -1091 -323 -1450 -733 -744 -849 -744 -2083 0
--2932 501 -572 1307 -848 2055 -703 905 174 1590 859 1764 1764 112 578 -26
-1204 -373 1688 -455 637 -1214 985 -1996 916z m390 -70 c941 -85 1717 -779
-1905 -1702 143 -703 -76 -1429 -585 -1937 -836 -837 -2184 -837 -3020 0 -837
-836 -837 2184 0 3020 450 451 1071 677 1700 619z"/>
-<path d="M1210 2995 l0 -365 215 0 215 0 0 55 0 55 -150 0 -150 0 0 310 0 310
--65 0 -65 0 0 -365z"/>
-<path d="M2713 3170 c-51 -12 -122 -59 -152 -101 -76 -105 -64 -283 25 -373
-78 -77 201 -94 307 -43 31 16 57 32 57 35 0 4 -11 24 -25 44 l-25 37 -36 -21
-c-94 -55 -206 1 -221 110 -10 74 5 129 45 171 46 48 95 59 149 34 51 -22 49
--23 77 16 24 32 25 36 9 53 -33 37 -137 56 -210 38z"/>
-<path d="M1842 2958 c3 -199 5 -216 26 -256 51 -95 181 -108 271 -26 21 19 41
-34 45 34 3 0 6 -18 6 -40 l0 -40 55 0 55 0 0 270 0 270 -65 0 -65 0 0 -181 c0
--99 -4 -189 -10 -199 -15 -27 -73 -60 -108 -60 -16 0 -40 9 -53 19 -24 19 -24
-23 -27 220 l-3 201 -65 0 -66 0 4 -212z"/>
-<path d="M3093 3153 c2 -10 50 -131 105 -269 95 -236 100 -254 90 -287 -17
--55 -61 -92 -108 -92 -42 0 -43 0 -55 -62 -6 -29 -4 -33 20 -39 39 -10 113 3
-150 26 50 31 91 104 147 262 27 79 76 219 109 311 l58 168 -61 -3 -62 -3 -29
--90 c-16 -49 -42 -137 -58 -195 -17 -58 -32 -112 -35 -120 -3 -8 -33 69 -68
-170 -92 268 -75 240 -147 240 -54 0 -61 -2 -56 -17z"/>
-<path d="M2250 2110 c0 -88 -2 -160 -4 -160 -2 0 -25 12 -52 27 -69 39 -159
-39 -225 1 -184 -108 -163 -466 31 -518 73 -20 180 7 219 54 21 25 31 19 31
--19 0 -24 5 -35 15 -35 13 0 15 52 15 405 0 353 -2 405 -15 405 -13 0 -15 -24
--15 -160z m-111 -140 c19 -5 52 -22 73 -36 l38 -27 -2 -171 -3 -170 -54 -38
-c-87 -61 -172 -63 -238 -5 -52 46 -75 105 -76 196 -1 118 44 203 128 242 45
-21 84 24 134 9z"/>
-<path d="M1250 1825 l0 -365 205 0 c176 0 205 2 205 15 0 13 -28 15 -190 15
-l-190 0 0 175 0 175 155 0 c131 0 155 2 155 15 0 13 -24 15 -155 15 l-155 0 0
-145 0 145 180 0 c153 0 180 2 180 15 0 13 -28 15 -195 15 l-195 0 0 -365z"/>
-<path d="M2665 1992 c-74 -36 -105 -87 -105 -173 0 -49 17 -97 47 -131 14 -16
-13 -20 -11 -48 -32 -38 -35 -97 -7 -131 19 -23 19 -24 -15 -62 -37 -44 -49
--82 -39 -127 24 -108 210 -154 351 -85 71 35 104 82 104 148 0 89 -55 117
--231 117 -92 0 -110 3 -133 21 -30 24 -33 56 -10 101 14 27 19 29 47 22 109
--28 189 4 234 94 21 44 25 61 20 104 -4 30 -17 67 -32 90 l-25 38 60 0 c47 0
-60 3 60 15 0 12 -15 15 -79 15 -43 0 -105 2 -137 5 -46 5 -68 2 -99 -13z m128
--26 c122 -52 122 -241 1 -292 -46 -19 -80 -17 -124 7 -107 60 -105 229 2 282
-41 20 79 21 121 3z m92 -506 c123 -28 87 -176 -53 -216 -67 -20 -158 -14 -204
-13 -18 10 -41 35 -51 56 -22 44 -13 84 30 129 26 27 30 28 132 28 58 0 124 -5
-146 -10z"/>
-<path d="M3279 1983 c-128 -66 -176 -251 -103 -401 45 -92 137 -140 242 -128
-67 8 134 40 126 61 -5 12 -12 11 -46 -6 -147 -75 -296 7 -322 179 l-6 42 201
-0 202 0 -5 68 c-8 106 -48 170 -125 198 -58 20 -104 17 -164 -13z m154 -17
-c61 -25 107 -102 107 -178 l0 -28 -184 0 -184 0 9 41 c13 55 31 88 71 126 55
-53 117 66 181 39z"/>
-</g>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg38"
+   xml:space="preserve"
+   width="1356.0133"
+   height="1356.0133"
+   viewBox="0 0 1356.0133 1356.0133"
+   sodipodi:docname="logo-vector.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
+     id="metadata44"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs42"><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath54"><path
+         d="M 0,1017.008 H 1017.008 V 0 H 0 Z"
+         id="path52"
+         inkscape:connector-curvature="0" /></clipPath><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath82"><path
+         d="M 0,1017.008 H 1017.008 V 0 H 0 Z"
+         id="path80"
+         inkscape:connector-curvature="0" /></clipPath></defs><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1406"
+     id="namedview40"
+     showgrid="false"
+     inkscape:zoom="0.43620516"
+     inkscape:cx="282.44641"
+     inkscape:cy="406.96319"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g46" /><g
+     id="g46"
+     inkscape:groupmode="layer"
+     inkscape:label="Lucy Edge"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,1356.0133)"><g
+       id="g48"><g
+         id="g50"
+         clip-path="url(#clipPath54)"><g
+           id="g56"
+           transform="translate(484.3687,415.29)"><path
+             d="m 0,0 c -24.639,5.212 -88.32,22.162 -141.706,79.522 -72.068,77.434 -72.162,171.334 -71.701,191.795 49.991,-10.117 106.991,-32.364 145.739,-81.36 2.183,-2.761 4.265,-5.552 6.251,-8.371 0.387,-34.51 6.365,-105.466 53.821,-172.604"
+             style="fill:#d32556;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path58"
+             inkscape:connector-curvature="0" /></g><g
+           id="g60"
+           transform="translate(508.4902,415.6309)"><path
+             d="m 0,0 c 24.663,5.096 88.424,21.743 142.081,78.85 72.435,77.091 72.973,170.99 72.609,191.453 -50.039,-9.88 -107.143,-31.857 -146.123,-80.669 -2.195,-2.75 -4.291,-5.532 -6.291,-8.341 C 61.727,146.786 55.412,75.858 7.639,8.946"
+             style="fill:#d32556;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path62"
+             inkscape:connector-curvature="0" /></g><g
+           id="g64"
+           transform="translate(462.7837,413.1641)"><path
+             d="m 0,0 c -22.026,-2.839 -102.994,-10.571 -182.583,41.487 -67.898,44.412 -95.512,106.648 -104.333,129.342 l 104.94,-3.661 c 7.894,-21.976 24.096,-58.086 57.019,-92.735 41.779,-43.97 88.234,-62.171 111.612,-69.552"
+             style="fill:#d32556;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path66"
+             inkscape:connector-curvature="0" /></g><g
+           id="g68"
+           transform="translate(527.6387,411.7031)"><path
+             d="m 0,0 c 22.335,-2.862 104.437,-10.657 185.14,41.826 68.849,44.775 96.85,107.518 105.794,130.397 -35.47,-1.23 -70.94,-2.46 -106.41,-3.69 C 176.52,146.377 160.091,109.973 126.707,75.04 84.343,30.711 37.237,12.362 13.532,4.921"
+             style="fill:#d32556;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path70"
+             inkscape:connector-curvature="0" /></g></g></g><text
+       transform="matrix(1,0,0,-1,188.6699,266.3672)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:120.000003px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';writing-mode:lr;fill:#d32556;fill-opacity:1;fill-rule:nonzero;stroke:none;font-style:normal;text-anchor:start;text-align:start;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+       id="text74"><tspan
+         x="0 60 142.56 223.67999 297.35999 332.64001 398.16 479.76001 565.32001"
+         y="0"
+         sodipodi:role="line"
+         id="tspan72">LUCY EDGE</tspan></text>
+<g
+       id="g76"><g
+         id="g78"
+         clip-path="url(#clipPath82)"><g
+           id="g84"
+           transform="translate(496.4946,413.4795)"><path
+             d="m 0,0 c -22.328,29.159 -48.402,72.472 -59.57,127.558 -6.44,31.766 -5.461,55.301 -5.18,60.865 1.74,34.477 11.003,59.564 20.072,83.527 8.164,21.571 21.47,50.887 43.383,82.881 17.916,-22.034 39.027,-54.204 52.448,-96.478 11.912,-37.525 12.809,-67.401 12.95,-74.463 0.127,-6.4 0.352,-30.222 -6.476,-61.513 C 47.305,75.07 26.54,36.71 6.475,8.418"
+             style="fill:#d32556;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path86"
+             inkscape:connector-curvature="0" /></g></g></g></g></svg>
