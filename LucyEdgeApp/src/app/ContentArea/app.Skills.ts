@@ -3,7 +3,6 @@ import { Title }     from '@angular/platform-browser';
 import { Meta }     from '@angular/platform-browser';
 import { faChartLine } from '@fortawesome/free-solid-svg-icons';
 import { faPencilAlt } from '@fortawesome/free-solid-svg-icons';
-import { faCircle } from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -14,7 +13,7 @@ import { faCircle } from '@fortawesome/free-solid-svg-icons';
 export class SkillsComponent {
   fachartline = faChartLine;
   faPencilAlt = faPencilAlt;
-  facircle = faCircle;
+
 
   public constructor(private titleService: Title, private meta: Meta) {
     this.titleService.setTitle( "Lucy Edge - Creative Brand Strategist and Strategic Copywriter" );
