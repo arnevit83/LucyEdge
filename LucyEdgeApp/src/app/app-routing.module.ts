@@ -13,17 +13,18 @@ import { BrandStrategyComponent } from './ContentArea/app.BrandStrategy';
 import { CopywriteringComponent } from './ContentArea/app.Copywritering';
 import { InspoComponent } from './ContentArea/app.Inspo';
 
-//Skills
-import { BrandpurposeComponent } from './ContentArea/Skills/app.Brandpurpose';
-import { BrandpositioningComponent } from './ContentArea/Skills/app.Brandpositioning';
-import { BrandstrategytrainingcoursesComponent } from './ContentArea/Skills/app.Brandstrategytrainingcourses';
-import { CustomerinsightComponent } from './ContentArea/Skills/app.Customerinsight';
-import { CopywritingresearchconceptsComponent } from './ContentArea/Skills/app.Copywritingresearchconcepts';
-import { WebsitecopywriterComponent } from './ContentArea/Skills/app.Websitecopywriter';
-
-
-
-
+import { BrandpurposeComponent } from './ContentArea/Successes/app.Brandpurpose';
+import { BrandpositioningComponent } from './ContentArea/Successes/app.Brandpositioning';
+import { BrandstrategytrainingcoursesComponent } from './ContentArea/Successes/app.Brandstrategytrainingcourses';
+import { CustomerinsightComponent } from './ContentArea/Successes/app.Customerinsight';
+import { CopywritingresearchconceptsComponent } from './ContentArea/Successes/app.Copywritingresearchconcepts';
+import { WebsitecopywriterComponent } from './ContentArea/Successes/app.Websitecopywriter';
+import { SEOCopywritingComponent } from './ContentArea/Successes/app.SEOCopywriting';
+import { ToneofvoiceComponent } from './ContentArea/Successes/app.Toneofvoice';
+import { ContentmarketingComponent } from './ContentArea/Successes/app.Contentmarketing';
+import { YogaschooldropoutComponent } from './ContentArea/Successes/app.Yogaschooldropout';
+import { ThehandbagwelliesyogaclubComponent } from './ContentArea/Successes/app.Thehandbagwelliesyogaclub';
+import { DowndogbillionaireComponent } from './ContentArea/Successes/app.Downdogbillionaire';
 
 import { PageNotFoundComponent } from './PageNotFound/app.PageNotFound';
 
@@ -41,17 +42,18 @@ const routes: Routes = [{path: '', component:  HomeComponent },
                         {path: 'CopyWriting',  component: CopywriteringComponent},
                         {path: 'Inspo',  component: InspoComponent},
 
-
-                        {path: 'Skills/Brandpurpose',  component: BrandpurposeComponent},
-                        {path: 'Skills/Brandpositioning',  component: BrandpositioningComponent},
-                        {path: 'Skills/Brandstrategytrainingcourses',  component: BrandstrategytrainingcoursesComponent},
-                        {path: 'Skills/Customerinsights',  component: CustomerinsightComponent},
-                        {path: 'Skills/Copywritingresearchconcepts',  component: CopywritingresearchconceptsComponent},
-                        {path: 'Skills/Websitecopywriter',  component: WebsitecopywriterComponent},
-
-
-
-
+                        {path: 'Successes/Brandpurpose',  component: BrandpurposeComponent},
+                        {path: 'Successes/Brandpositioning',  component: BrandpositioningComponent},
+                        {path: 'Successes/Brandstrategytrainingcourses',  component: BrandstrategytrainingcoursesComponent},
+                        {path: 'Successes/Customerinsights',  component: CustomerinsightComponent},
+                        {path: 'Successes/Copywritingresearchconcepts',  component: CopywritingresearchconceptsComponent},
+                        {path: 'Successes/Websitecopywriter',  component: WebsitecopywriterComponent},
+                        {path: 'Successes/SEOCopywriting',  component: SEOCopywritingComponent},
+                        {path: 'Successes/Toneofvoice',  component: ToneofvoiceComponent},
+                        {path: 'Successes/Contentmarketing',  component: ContentmarketingComponent},
+                        {path: 'Successes/Yogaschooldropout',  component: YogaschooldropoutComponent},
+                        {path: 'Successes/Thehandbagwelliesyogaclub',  component: ThehandbagwelliesyogaclubComponent},
+                        {path: 'Successes/Downdogbillionaire',  component: DowndogbillionaireComponent},
 
                         {path: '**', redirectTo: 'not-found'}];
 

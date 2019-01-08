@@ -11,8 +11,8 @@ import { Meta }     from '@angular/platform-browser';
 export class LovesComponent {
   public constructor(private titleService: Title, private meta: Meta ) {
 
-    this.titleService.setTitle( "Loves - Brand Strategist + Freelance Copywriter + SEO Copywriting" );
-  this.meta.updateTag({ name: 'description', content: 'I am a Brand Strategist and Freelance Copywriter with SEO Copywriting qualifications. I write on point brand stories to engage customers and convert to sales.' });
-  this.meta.updateTag({ name: 'keywords', content: '' });
+    this.titleService.setTitle( "What Lucy Edge Loves, Apart From Brand Strategy and SEO Copywriting" );
+  this.meta.updateTag({ name: 'description', content: 'Life isn’t just about brand strategy and SEO copywriting. These are a few of my favourite things – from yoga to running, a good book to New Vogue, the V&A to Southwold.' });
+  this.meta.updateTag({ name: 'keywords', content: 'Brand strategy,SEO Copywriting' });
 }
 }
