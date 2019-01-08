@@ -20,6 +20,18 @@ import { BrandStrategyComponent } from './ContentArea/app.BrandStrategy';
 import { CopywriteringComponent } from './ContentArea/app.Copywritering';
 import { InspoComponent } from './ContentArea/app.Inspo';
 
+import { BrandpurposeComponent } from './ContentArea/Skills/app.Brandpurpose';
+import { BrandpositioningComponent } from './ContentArea/Skills/app.Brandpositioning';
+import { BrandstrategytrainingcoursesComponent } from './ContentArea/Skills/app.Brandstrategytrainingcourses';
+import { CustomerinsightComponent } from './ContentArea/Skills/app.Customerinsight';
+import { CopywritingresearchconceptsComponent } from './ContentArea/Skills/app.Copywritingresearchconcepts';
+import { WebsitecopywriterComponent } from './ContentArea/Skills/app.Websitecopywriter';
+
+
+
+
+
+
 
 
 import { ServiceWorkerModule } from '@angular/service-worker';
@@ -44,7 +56,15 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrandStrategyComponent,
     CopywriteringComponent,
     InspoComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    BrandpurposeComponent,
+    BrandpositioningComponent,
+    BrandstrategytrainingcoursesComponent,
+    CustomerinsightComponent,
+    CopywritingresearchconceptsComponent,
+    WebsitecopywriterComponent
+
+
   ],
   imports: [
     BrowserModule,

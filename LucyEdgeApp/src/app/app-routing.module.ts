@@ -13,6 +13,17 @@ import { BrandStrategyComponent } from './ContentArea/app.BrandStrategy';
 import { CopywriteringComponent } from './ContentArea/app.Copywritering';
 import { InspoComponent } from './ContentArea/app.Inspo';
 
+//Skills
+import { BrandpurposeComponent } from './ContentArea/Skills/app.Brandpurpose';
+import { BrandpositioningComponent } from './ContentArea/Skills/app.Brandpositioning';
+import { BrandstrategytrainingcoursesComponent } from './ContentArea/Skills/app.Brandstrategytrainingcourses';
+import { CustomerinsightComponent } from './ContentArea/Skills/app.Customerinsight';
+import { CopywritingresearchconceptsComponent } from './ContentArea/Skills/app.Copywritingresearchconcepts';
+import { WebsitecopywriterComponent } from './ContentArea/Skills/app.Websitecopywriter';
+
+
+
+
 
 import { PageNotFoundComponent } from './PageNotFound/app.PageNotFound';
 
@@ -29,6 +40,17 @@ const routes: Routes = [{path: '', component:  HomeComponent },
                         {path: 'BrandStrategy',  component: BrandStrategyComponent},
                         {path: 'CopyWriting',  component: CopywriteringComponent},
                         {path: 'Inspo',  component: InspoComponent},
+
+
+                        {path: 'Skills/Brandpurpose',  component: BrandpurposeComponent},
+                        {path: 'Skills/Brandpositioning',  component: BrandpositioningComponent},
+                        {path: 'Skills/Brandstrategytrainingcourses',  component: BrandstrategytrainingcoursesComponent},
+                        {path: 'Skills/Customerinsights',  component: CustomerinsightComponent},
+                        {path: 'Skills/Copywritingresearchconcepts',  component: CopywritingresearchconceptsComponent},
+                        {path: 'Skills/Websitecopywriter',  component: WebsitecopywriterComponent},
+
+
+
 
 
                         {path: '**', redirectTo: 'not-found'}];
