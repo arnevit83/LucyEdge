@@ -18,7 +18,7 @@ imagemin(['./src/assets/images uncompressed/*.{jpg,png}'], outputFolder, {
 
 imagemin(['./src/assets/images uncompressed/*.png'], outputFolder, {
   use: [
-    imageminPngquant({quality: 1,speed: 1,strip: true})
+    imageminPngquant({quality: 35,speed: 3,strip: true})
   ]
 }).then(() => {
     console.log('PNG Images optimized');
