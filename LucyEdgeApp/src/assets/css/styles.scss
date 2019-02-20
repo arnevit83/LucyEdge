@@ -16,8 +16,8 @@
 
 //Sass Variables
 
-$primary: #D52653;
-$secondary: #ad1f42;
+$primary: #7D9C9F;
+$secondary: #AD235E;
 $sidebar-base-width: 17rem;
 $white: #FFFFFF;
 $defaultFont: 'Open Sans', sans-serif;
@@ -68,9 +68,9 @@ font-size:3.5vw;
 		line-height: 1;
 }
 .nav-bar{
-	height: 2px;
- color: #e2688754;
- background-color: #e2688754;
+	height: 1px;
+ color: #ad245f;
+ background-color: #ad245f;
  width:80%;    margin-bottom: 15px;
 border:none;
 }
@@ -167,7 +167,7 @@ box-shadow: 2px 0px 5px 0px rgba(102,102,102,0.2);
 	#sideNav .navbar-brand .img-profile {
 		max-width: 10rem;
 		max-height: 10rem;
-		border: 7px solid rgb(255, 198, 139);width: 500px;background-color: white;
+		border: 7px solid #bdd8da;width: 500px;background-color: white;
 	}
 	#sideNav .navbar-collapse {
 		display: -webkit-box;
@@ -266,7 +266,9 @@ a:active {
 		}
 	}
 }
-
+.jumbotron{
+	    background-color: #ECECEC!important;
+}
 @media (min-width: 992px) {
 	#sideNav {
 		text-align: center;
@@ -285,7 +287,7 @@ a:active {
 				max-width: 10rem;
 				max-height: 10rem;
 
-				border:7px solid rgb(255, 198, 139);
+				border:7px solid #bdd8da;
 			}
 		}
 		.navbar-collapse {
@@ -343,7 +345,7 @@ background-color: white;
 .icon fa-icon{
     margin: 10px;
 		padding:10px;
-	color: #fa944b;
+	color: #7c9c9f;
 	display: inline-flex;
 }
 .icon a{
@@ -414,11 +416,8 @@ min-height: auto!important;
 
 background-image: none!important;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa84c+0,ff7b0d+100;Orange+3D */
-background-color: rgb(255,168,76)!important;; /* Old browsers */
-background-color: -moz-linear-gradient(top, rgba(255,168,76,1) 0%, rgba(255,123,13,1) 100%)!important;; /* FF3.6-15 */
-background-color: -webkit-linear-gradient(top, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%)!important;; /* Chrome10-25,Safari5.1-6 */
-background-color: linear-gradient(to bottom, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%)!important;; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 )!important;; /* IE6-9 */
+background-color: #BDD8DA !important;; /* Old browsers */
+
 }
 .ScrollUp:hover{
 	color: #ffffff;
@@ -480,11 +479,11 @@ border-radius: 3px; /* future proofing */
 
 //SKILLS
 .list-group a:nth-of-type(2n) .list-group-item {
-background-color:#dee2e669;
+background-color:#ECECEC;
 }
 
 .circle-icon {
-	background: #e26887;
+	background: #AD235E;
 	    width: 140px;
 	    height: 140px;
 	    border-radius: 50%;
@@ -493,12 +492,12 @@ background-color:#dee2e669;
 	    vertical-align: middle;
 	    padding: 39px;
 	    display: block;
-	    color: #d32455d9;
-	    background: #e26887;
+	    color: #AD235E;
+	    background: #AD235E;
 	    background: white;
-	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e26887', endColorstr='#d52653',GradientType=0 );
+	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e26887', endColorstr='#AD235E',GradientType=0 );
 	    margin-bottom: 20px;
-	    border: #ffa84ca6 solid 7px;
+	    border: #BDD8DA    solid 7px;
 	}
 	.circle-icon svg{
 	font-size: 50px;
@@ -539,10 +538,10 @@ cursor: pointer;
 
 
 .ColourGrid:nth-of-type(odd) {
-background-color:#D52653;
+background-color:#7D9C9F ;
 }
 .ColourGrid:nth-of-type(even) {
-	background-color: #FA944C;
+	background-color: #BDD8DA;
 }
 
 
@@ -669,8 +668,8 @@ min-height: 100vh;
     color: #808080;
     position: relative;
     padding: 15px;    padding-bottom: 30px;
-    background: #f1f1f1;
-    border: 1px solid #efefef;
+    background: #ECECEC;
+    border: 1px solid #ECECEC;
     border-radius: 3px;
 	margin-bottom: 15px;	min-height: 200px;
 
@@ -699,7 +698,7 @@ min-height: 100vh;
 }
 .carousel .overview b {
 	text-transform: uppercase;
-	color: #ffa84c ;
+	color: #7c9c9f ;
 }
 .carousel .carousel-indicators {
 position:relative;
@@ -725,7 +724,7 @@ testimonials{
 }
 .carousel-indicators li.active {
 	color: #fff;
-    background: #ffa84c ;
+    background: #7c9c9f ;
     border: 5px double;
 }
 .carousel .media-body{
@@ -751,8 +750,8 @@ testimonials{
 
 .BrandStrategy hr{
 	height: 1px;
- color: #ffa84c75;
- background-color: #ffa84c75;
+ color: #ad245f ;
+ background-color: #ad245f ;
  border: none;
 }
 
