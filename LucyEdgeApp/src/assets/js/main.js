@@ -45,4 +45,4 @@ setTimeout(function(){
 
     $(".app-loading").hide();
 
-},100);
+},500);
