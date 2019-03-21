@@ -53,12 +53,10 @@ const routes: Routes = [{path: '', component:  HomeComponent },
                         {path: 'Successes/Contentmarketing',  component: ContentmarketingComponent},
                         {path: 'Successes/Yogaschooldropout',  component: YogaschooldropoutComponent},
                         {path: 'Successes/Thehandbagwelliesyogaclub',  component: ThehandbagwelliesyogaclubComponent},
-                        {path: 'Successes/Downdogbillionaire',  component: DowndogbillionaireComponent},
-
-                        {path: '**', redirectTo: 'not-found'}];
+                        {path: 'Successes/Downdogbillionaire',  component: DowndogbillionaireComponent}];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, { useHash: true, scrollPositionRestoration: 'enabled' })],
+  imports: [RouterModule.forRoot(routes,{scrollPositionRestoration: 'enabled' })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

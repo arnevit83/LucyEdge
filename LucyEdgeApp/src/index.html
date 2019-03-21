@@ -9,7 +9,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Loading CSS Style -->
-  <style type="text/css">body,html{height:100%}@media (min-width: 992px){.app-loading{margin-left:-17rem}}.app-loading{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;}.app-loading .spinner{height:100px;width:100px;animation:rotate 2s linear infinite;transform-origin:center center;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto}.app-loading .spinner .path{stroke-dasharray:1,200;stroke-dashoffset:0;animation:dash 1.5s ease-in-out infinite;stroke-linecap:round;stroke:#D31D4C}@keyframes rotate{100%{transform:rotate(360deg)}}@keyframes dash{0%{stroke-dasharray:1,200;stroke-dashoffset:0}50%{stroke-dasharray:89,200;stroke-dashoffset:-35px}100%{stroke-dasharray:89,200;stroke-dashoffset:-124px}}@media (min-width:992px){body{padding-top:0;padding-left:17rem}}</style>
+  <style type="text/css">body,html{height:100%}
+    .app-loading {
+      position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    z-index: 10000;
+    background: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    }
+.app-loading .spinner{height:100px;width:100px;animation:rotate 2s linear infinite;transform-origin:center center;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto}.app-loading .spinner .path{stroke-dasharray:1,200;stroke-dashoffset:0;animation:dash 1.5s ease-in-out infinite;stroke-linecap:round;stroke:#D31D4C}@keyframes rotate{100%{transform:rotate(360deg)}}@keyframes dash{0%{stroke-dasharray:1,200;stroke-dashoffset:0}50%{stroke-dasharray:89,200;stroke-dashoffset:-35px}100%{stroke-dasharray:89,200;stroke-dashoffset:-124px}}@media (min-width:992px){body{padding-top:0;padding-left:17rem}}</style>
   <!-- COMMON TAGS -->
   <meta charset="utf-8">
   <title>Brand Strategist + Freelance Copywriter + SEO Copywriting</title>
@@ -135,18 +149,19 @@
 <body>
   <app-root> <!-- selector from app.component.ts -->
 
-       <!-- loading layout replaced by app after startupp -->
-       <div class="app-loading">
-         <div class="text-center">
-           <div class="spinner-grow text-primary" role="status">
-
-           </div>
-   </div>
-       </div>
-
+   
 
 
   </app-root>
+      <!-- loading layout replaced by app after startupp -->
+      <div class="app-loading">
+        <div class="text-center">
+          <div class="spinner-grow text-primary" role="status">
+
+          </div>
+  </div>
+      </div>
+
   <noscript>
   You do not have JS enabled.  Since this is an Angular based website, it won't work with out JS :-S
   </noscript>

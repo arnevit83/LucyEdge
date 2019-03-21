@@ -41,3 +41,8 @@ $(document).ready(function() {
         $(".navbar-collapse").collapse('hide');
     });
 });
+setTimeout(function(){ 
+
+    $(".app-loading").hide();
+
+},100);
