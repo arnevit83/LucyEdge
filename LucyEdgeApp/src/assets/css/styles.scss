@@ -132,9 +132,7 @@ p.lead {
 	text-transform: uppercase;
 }
 
-#sideNav .navbar-toggler:focus {
-	//   outline-color: #d48a6e;
-}
+
 
 
 
@@ -489,7 +487,7 @@ background-color:#ECECEC;
 	    border-radius: 50%;
 	    text-align: center;
 	    line-height: 50px;
-	    vertical-align: middle;
+	  //  vertical-align: middle;
 	    padding: 39px;
 	    display: block;
 	    color: #AD235E;
@@ -660,7 +658,7 @@ min-height: 100vh;
 .carousel .testimonial-wrapper {
 	padding: 0 10px;
 }
-.carousel .textmini{
+ .textmini{
 	margin: 0	auto;
 	width:95%;
 }

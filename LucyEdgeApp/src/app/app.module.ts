@@ -13,6 +13,7 @@ import { HomeComponent } from './ContentArea/app.Home';
 import { SkillsComponent } from './ContentArea/app.Skills';
 import { SuccessesComponent } from './ContentArea/app.Successes';
 import { ClientsComponent } from './ContentArea/app.Clients';
+import { YogaTeachersComponent } from './ContentArea/app.YogaTeachers';
 import { TestimonialsComponent } from './ContentArea/app.Testimonials';
 import { LovesComponent } from './ContentArea/app.Loves';
 import { ContactComponent } from './ContentArea/app.Contact';
@@ -48,6 +49,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     SkillsComponent,
     SuccessesComponent,
     ClientsComponent,
+    YogaTeachersComponent,
     TestimonialsComponent,
     LovesComponent,
     ContactComponent,
