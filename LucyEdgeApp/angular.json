@@ -26,6 +26,7 @@
               "src/favicon.ico",
               "src/browserconfig.xml",
               "src/assets/images",
+              "src/assets/fonts",
               "src/assets/icons",
               "src/web.config",
               "src/robots.txt",
@@ -107,6 +108,7 @@
             "assets": [
               "src/favicon.ico",
               "src/browserconfig.xml",
+              "src/assets/fonts",
               "src/assets",
               "/web.config",
               "src/robots.txt",

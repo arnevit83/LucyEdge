@@ -20,7 +20,106 @@ $primary: #7D9C9F;
 $secondary: #AD235E;
 $sidebar-base-width: 17rem;
 $white: #FFFFFF;
-$defaultFont: 'Open Sans', sans-serif;
+@font-face {
+    font-family: 'Bauer Bodoni Std';
+    src: url('~/assets/fonts/BauerBodoniStd-BlackItalic.eot');
+    src: local('Bauer Bodoni Std Black Italic'), local('BauerBodoniStd-BlackItalic'),
+        url('~/assets/fonts/BauerBodoniStd-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/BauerBodoniStd-BlackItalic.woff2') format('woff2'),
+        url('~/assets/fonts/BauerBodoniStd-BlackItalic.woff') format('woff'),
+        url('~/assets/fonts/BauerBodoniStd-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bauer Bodoni Std';
+    src: url('~/assets/fonts/BauerBodoniStd-BoldItalic.eot');
+    src: local('~/assets/fonts/Bauer Bodoni Std Bold Italic'), local('BauerBodoniStd-BoldItalic'),
+        url('~/assets/fonts/BauerBodoniStd-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/BauerBodoniStd-BoldItalic.woff2') format('woff2'),
+        url('~/assets/fonts/BauerBodoniStd-BoldItalic.woff') format('woff'),
+        url('~/assets/fonts/BauerBodoniStd-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bauer Bodoni Std';
+    src: url('~/assets/fonts/BauerBodoniStd-BlackCondensed.eot');
+    src: local('Bauer Bodoni Std Black Condensed'), local('BauerBodoniStd-BlackCondensed'),
+        url('~/assets/fonts/BauerBodoniStd-BlackCondensed.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/BauerBodoniStd-BlackCondensed.woff2') format('woff2'),
+        url('~/assets/fonts/BauerBodoniStd-BlackCondensed.woff') format('woff'),
+        url('~/assets/fonts/BauerBodoniStd-BlackCondensed.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bauer Bodoni Std';
+    src: url('~/assets/fonts/BauerBodoniStd-Bold.eot');
+    src: local('Bauer Bodoni Std Bold'), local('BauerBodoniStd-Bold'),
+        url('~/assets/fonts/BauerBodoniStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/BauerBodoniStd-Bold.woff2') format('woff2'),
+        url('~/assets/fonts/BauerBodoniStd-Bold.woff') format('woff'),
+        url('~/assets/fonts/BauerBodoniStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bauer Bodoni Std';
+    src: url('~/assets/fonts/BauerBodoniStd-Black.eot');
+    src: local('Bauer Bodoni Std Black'), local('BauerBodoniStd-Black'),
+        url('~/assets/fonts/BauerBodoniStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/BauerBodoniStd-Black.woff2') format('woff2'),
+        url('~/assets/fonts/BauerBodoniStd-Black.woff') format('woff'),
+        url('~/assets/fonts/BauerBodoniStd-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bauer Bodoni Std';
+    src: url('~/assets/fonts/BauerBodoniStd-BoldCondensed.eot');
+    src: local('Bauer Bodoni Std Bold Condensed'), local('BauerBodoniStd-BoldCondensed'),
+        url('~/assets/fonts/BauerBodoniStd-BoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/BauerBodoniStd-BoldCondensed.woff2') format('woff2'),
+        url('~/assets/fonts/BauerBodoniStd-BoldCondensed.woff') format('woff'),
+        url('~/assets/fonts/BauerBodoniStd-BoldCondensed.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bauer Bodoni Std';
+    src: url('~/assets/fonts/BauerBodoniStd-RomanItalic.eot');
+    src: local('Bauer Bodoni Std Roman Italic'), local('BauerBodoniStd-RomanItalic'),
+        url('~/assets/fonts/BauerBodoniStd-RomanItalic.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/BauerBodoniStd-RomanItalic.woff2') format('woff2'),
+        url('~/assets/fonts/BauerBodoniStd-RomanItalic.woff') format('woff'),
+        url('~/assets/fonts/BauerBodoniStd-RomanItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Bauer Bodoni Std';
+    src: url('~/assets/fonts/BauerBodoniStd-Roman.eot');
+    src: local('Bauer Bodoni Std Roman'), local('BauerBodoniStd-Roman'),
+        url('~/assets/fonts/BauerBodoniStd-Roman.eot?#iefix') format('embedded-opentype'),
+        url('~/assets/fonts/BauerBodoniStd-Roman.woff2') format('woff2'),
+        url('~/assets/fonts/BauerBodoniStd-Roman.woff') format('woff'),
+        url('~/assets/fonts/BauerBodoniStd-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+$defaultFont: 'Bauer Bodoni Std', sans-serif;
 
 // Custom Css
 body {
