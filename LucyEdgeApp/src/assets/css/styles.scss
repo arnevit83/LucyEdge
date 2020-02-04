@@ -14,19 +14,24 @@
 @import '~bootstrap/scss/_tooltip';
 @import '~bootstrap/scss/_card';
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap');
 //Sass Variables
 
 $primary: #7D9C9F;
 $secondary: #AD235E;
 $sidebar-base-width: 17rem;
 $white: #FFFFFF;
-$defaultFont: 'Open Sans', sans-serif;
+$secondFont: 'Open Sans', sans-serif;
+$defaultFont:  'Oswald', sans-serif;
+
+
+
 
 // Custom Css
 body {
 	font-family: $defaultFont;
 	padding-top: 54px;
-	color: #444a50fc;
+	color: #444a50db;
 
 }
 Contact{
@@ -58,7 +63,7 @@ h4,
 h5,
 h6 {
 	font-weight: 700;
-	text-transform: uppercase;
+	text-transform: uppercase;font-family: $secondFont;
 }
 h1 {
 font-size:3.5vw;
@@ -348,7 +353,7 @@ background-color: white;
 }
 .icon a{
 
-	color: #333;
+	color: #444a50db;
 }
 .iconspink{
 		color: $primary;
